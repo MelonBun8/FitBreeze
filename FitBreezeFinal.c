@@ -39,140 +39,150 @@ user current;//defining our current user with user data type / struct
 //*********DEFINING FUNCTIONS BEFORE MAIN BODY
 
 void bollywood(){
+
 	system("cls");
 	int choices = 0;
+	
 	while(choices!=5 && choices != 4){
-	printf("1.JUMME KI RAAT \n2.KABHI JO BADAL BARSE \n3.USKAA HI BANNA \n4.Back to the main menu\n5.Exit\t");
-	scanf("%d",&choices);
-	switch(choices){
-		case 1:
-			printf("now playing jumme ki raat hai");
-			PlaySound("Jumme Ki Raat.wav",NULL,SND_ASYNC);
-			break;
-		case 2:
-			PlaySound("Kabhi Jo Baadal Barse.wav",NULL,SND_ASYNC);
-			break;
-		case 3:
-			PlaySound("Uska Hi Banna.wav",NULL,SND_ASYNC);
-			break;
-		case 0:
-			PlaySound(TEXT("STOPPED"),NULL,SND_APPLICATION);
-			break;
-		case 4:
-			back();
-			break;
-		case 5:
-			exit(0);
-			
-	}
+		printf("1.JUMME KI RAAT \n2.KABHI JO BADAL BARSE \n3.USKAA HI BANNA \n4.Back to the main menu\n5.Exit\t");
+		scanf("%d",&choices);
+		switch(choices){
+			case 1:
+				printf("now playing jumme ki raat hai");
+				PlaySound("Jumme Ki Raat.wav",NULL,SND_ASYNC);
+				break;
+			case 2:
+				PlaySound("Kabhi Jo Baadal Barse.wav",NULL,SND_ASYNC);
+				break;
+			case 3:
+				PlaySound("Uska Hi Banna.wav",NULL,SND_ASYNC);
+				break;
+			case 0:
+				PlaySound(TEXT("STOPPED"),NULL,SND_APPLICATION);
+				break;
+			case 4:
+				back();
+				break;
+			case 5:
+				exit(0);
+				
+	}//switch END
+	
 	system("cls");
-}
 
-}
+	}//while END
+}//bollywood function END
 
 void hollywood(){
 	system("cls");
 	int choices = 0;
+
 	while(choices!=5 && choices != 4){
-	printf("1.JUMME KI RAAT \n2.KABHI JO BADAL BARSE \n3.USKAA HI BANNA \n4.Back to the main menu\n5.Exit\t");
-	scanf("%d",&choices);
-	switch(choices){
-		case 1:
-			printf("now playing jumme ki raat hai");
-			PlaySound("Jumme Ki Raat.wav",NULL,SND_ASYNC);
-			break;
-		case 2:
-			PlaySound("Kabhi Jo Baadal Barse.wav",NULL,SND_ASYNC);
-			break;
-		case 3:
-			PlaySound("Uska Hi Banna.wav",NULL,SND_ASYNC);
-			break;
-		case 0:
-			PlaySound(TEXT("STOPPED"),NULL,SND_APPLICATION);
-			break;
-		case 4:
-			back();
-			break;
-		case 5:
-			exit(0);
-	}
+		printf("1.JUMME KI RAAT \n2.KABHI JO BADAL BARSE \n3.USKAA HI BANNA \n4.Back to the main menu\n5.Exit\t");
+		scanf("%d",&choices);
+		switch(choices){
+			case 1:
+				printf("now playing jumme ki raat hai");
+				PlaySound("Jumme Ki Raat.wav",NULL,SND_ASYNC);
+				break;
+			case 2:
+				PlaySound("Kabhi Jo Baadal Barse.wav",NULL,SND_ASYNC);
+				break;
+			case 3:
+				PlaySound("Uska Hi Banna.wav",NULL,SND_ASYNC);
+				break;
+			case 0:
+				PlaySound(TEXT("STOPPED"),NULL,SND_APPLICATION);
+				break;
+			case 4:
+				back();
+				break;
+			case 5:
+				exit(0);
+		}//switch END
 	system("cls");
-}
-}
+	}//while END
+
+}//hollywood END
 
 void AllSongs(){
 	
 	system("cls");
 	int choices = 0;
-	while(choices!=8 && choices !=7){
-	printf("1.JUMME KI RAAT \n2.KABHI JO BADAL BARSE \n3.USKAA HI BANNA \n4.JUMME KI RAAT \n5.KABHI JO BADAL BARSE \n6.USKAA HI BANNA\n7.Back to the main menu\n8.Exit\t");
-	scanf("%d",&choices);
-	switch(choices){
-		
-		case 1:
-			PlaySound("Jumme Ki Raat.wav",NULL,SND_ASYNC);
-			break;
-		case 2:
-			PlaySound("Kabhi Jo Baadal Barse.wav",NULL,SND_ASYNC);
-			break;
-		case 3:
-			PlaySound("Uska Hi Banna.wav",NULL,SND_ASYNC);
-			break;
-		case 4:
-			PlaySound("Jumme Ki Raat.wav",NULL,SND_ASYNC);
-			break;
-		case 5:
-			PlaySound("Kabhi Jo Baadal Barse.wav",NULL,SND_ASYNC);
-			break;
-		case 6:
-			PlaySound("Uska Hi Banna.wav",NULL,SND_ASYNC);
-			break;
-		case 0:
-			PlaySound(TEXT("STOPPED"),NULL,SND_APPLICATION);
-			break;
-		case 7:
-			back();
-			break;
-		case 8:
-			exit(0);
-			
-	}
-	system("cls");
-}
-}
 
-void back (){
+	while(choices!=8 && choices !=7){
+		printf("1.JUMME KI RAAT \n2.KABHI JO BADAL BARSE \n3.USKAA HI BANNA \n4.JUMME KI RAAT \n5.KABHI JO BADAL BARSE \n6.USKAA HI BANNA\n7.Back to the main menu\n8.Exit\t");
+		scanf("%d",&choices);
+		switch(choices){
+			
+			case 1:
+				PlaySound("Jumme Ki Raat.wav",NULL,SND_ASYNC);
+				break;
+			case 2:
+				PlaySound("Kabhi Jo Baadal Barse.wav",NULL,SND_ASYNC);
+				break;
+			case 3:
+				PlaySound("Uska Hi Banna.wav",NULL,SND_ASYNC);
+				break;
+			case 4:
+				PlaySound("Jumme Ki Raat.wav",NULL,SND_ASYNC);
+				break;
+			case 5:
+				PlaySound("Kabhi Jo Baadal Barse.wav",NULL,SND_ASYNC);
+				break;
+			case 6:
+				PlaySound("Uska Hi Banna.wav",NULL,SND_ASYNC);
+				break;
+			case 0:
+				PlaySound(TEXT("STOPPED"),NULL,SND_APPLICATION);
+				break;
+			case 7:
+				back();
+				break;
+			case 8:
+				exit(0);
+				
+		}//switch END
+		system("cls");
+	}//while END
+}//aLLsongs END
+
+void back (){ // used to go back to main menu of music player
+
 	PlaySound(TEXT("STOPPED"),NULL,SND_APPLICATION);
 	system("cls");
 	mainMusic();
+
 }
 
 int mainMenu(){
 
 	int choice;
 	system("cls");
+
 	puts("*****************************\n\tMAIN -|- MENU\n*****************************");
 	printf("Welcome %s, what would you like to do?\n\n",current.username);
 	puts("\n1. Start / Resume your fitness journey");
 	puts("2. Enter workout mode and listen to your favorite songs as you work out!");
 	puts("\nEnter your choice: ");
 	fflush(stdin);
+	
 	scanf("%d",&choice);
 	return choice;
 	
-}
+}//mainMenu END
 
-void introPage(){
-system("cls");
-printf("\n\n");                                                                                                                                                              
-puts("\t\t#  #  # ###### #       ####   ####  #    # ######    #####  ####     ##### #    # ######    #    # #    #  ####  #  ####     #####  #        ##   #   # ###### #####");  
-puts("\t\t#  #  # #      #      #    # #    # ##  ## #           #   #    #      #   #    # #         ##  ## #    # #      # #    #    #    # #       #  #   # #  #      #    #"); 
-puts("\t\t#  #  # #####  #      #      #    # # ## # #####       #   #    #      #   ###### #####     # ## # #    #  ####  # #         #    # #      #    #   #   #####  #    #"); 
-puts("\t\t#  #  # #      #      #      #    # #    # #           #   #    #      #   #    # #         #    # #    #      # # #         #####  #      ######   #   #      #####");  
-puts("\t\t#  #  # #      #      #    # #    # #    # #           #   #    #      #   #    # #         #    # #    # #    # # #    #    #      #      #    #   #   #      #   #");  
-puts("\t\t ## ##  ###### ######  ####   ####  #    # ######      #    ####       #   #    # ######    #    #  ####   ####  #  ####     #      ###### #    #   #   ###### #    #\n\n\n"); 
-	
-}
+void introPage(){//Main menu of MP3 Player
+	system("cls");
+	printf("\n\n");                                                                                                                                                              
+	puts("\t\t#  #  # ###### #       ####   ####  #    # ######    #####  ####     ##### #    # ######    #    # #    #  ####  #  ####     #####  #        ##   #   # ###### #####");  
+	puts("\t\t#  #  # #      #      #    # #    # ##  ## #           #   #    #      #   #    # #         ##  ## #    # #      # #    #    #    # #       #  #   # #  #      #    #"); 
+	puts("\t\t#  #  # #####  #      #      #    # # ## # #####       #   #    #      #   ###### #####     # ## # #    #  ####  # #         #    # #      #    #   #   #####  #    #"); 
+	puts("\t\t#  #  # #      #      #      #    # #    # #           #   #    #      #   #    # #         #    # #    #      # # #         #####  #      ######   #   #      #####");  
+	puts("\t\t#  #  # #      #      #    # #    # #    # #           #   #    #      #   #    # #         #    # #    # #    # # #    #    #      #      #    #   #   #      #   #");  
+	puts("\t\t ## ##  ###### ######  ####   ####  #    # ######      #    ####       #   #    # ######    #    #  ####   ####  #  ####     #      ###### #    #   #   ###### #    #\n\n\n"); 
+		
+}//IntroPage END
 
 int mainMusic(){
 	
@@ -183,6 +193,7 @@ int mainMusic(){
 	printf("1.Bollywood songs\n2.Hollywood songs\n3.All songs\n4.Exit ");
 	fflush(stdin);
 	scanf("%d",&options);
+
 	switch(options){
 		case 1:
 			bollywood();
@@ -197,7 +208,7 @@ int mainMusic(){
 		case 4:
 			return;
 			break;
-}
+		}//switch END
 	
 }//mainMusic END
 
@@ -267,7 +278,7 @@ void executioner(){//DELETES CURRENT PROFILE (ONCE 7 DAYS ARE COMPLETE)
 
 	rename("replace.tmp","profiles.txt");
 	
-}
+}//executioner END
 
 void finalReport(){//CREATES FINAL REPORT OF 7 DAYS, GIVING TOTAL PERCENT COMPLETION
 
@@ -282,6 +293,7 @@ void finalReport(){//CREATES FINAL REPORT OF 7 DAYS, GIVING TOTAL PERCENT COMPLE
 	progress[4] = (current.prog5 - 48);
 	progress[5] = (current.prog6 - 48);
 	progress[6] = (current.prog7 - 48);
+	
 	for (int i = 0; i < 7; i++){
 		total += progress[i];
 	}//for END
@@ -305,7 +317,7 @@ void finalReport(){//CREATES FINAL REPORT OF 7 DAYS, GIVING TOTAL PERCENT COMPLE
 	executioner();
 	
 		
-};
+}//finalReport END
 
 void fileEdit(char edit_choice, char change[2] ){//FILE EDITING FUNCTION  | edit_choice options: P: plan, D: day, numbers 1 to 7 for progress of 7days: progress, R: part
 	//makes a temporary file, copies everything except line to be edited, which is updated, temp file made permanent, old file deleted
@@ -388,6 +400,7 @@ void progGetter(){//ASKS THE USER FOR A PROGRESS UPDATE FOR THE DAY, THEN UPDATE
 	char prog_update[2] = {'\0'};
 	fflush(stdin);
 	gets(prog_update);
+
 	switch( current.day ){
 		case '1':
 			fileEdit('1', prog_update);
@@ -449,17 +462,20 @@ void planGetter(){//OUTPUTS THE ENTIRE NURITION + EXERCISE PLAN FOR THE DAY
 	while (fgets(line, sizeof(line), planFile)) {
 		puts(line);
 	}
+
 	fileEdit('R', part_updater);
 	fclose(planFile);
 	puts("Press enter to continue...");
 	fflush(stdin);
 	getchar();
+
 }//day_getter FUNCTION END
 
 int startPage(){//START PAGE DISPLAY FUNCTION
-puts("_____________________/\\//_______                            ___ ___  \n___  ____/__(_)_  /_//\\/___  __ )_____________________________ \\__ \\ \n__  /_   __  /_  __/    __  __  |_  ___/  _ \\  _ \\__  /_  _ \\__ \\__ \\\n_  __/   _  / / /_      _  /_/ /_  /   /  __/  __/_  /_/  __/_  /_  /\n/_/      /_/  \\__/      /_____/ /_/    \\___/\\___/_____/\\___/_/_/_/_/ ");
+	puts("_____________________/\\//_______                            ___ ___  \n___  ____/__(_)_  /_//\\/___  __ )_____________________________ \\__ \\ \n__  /_   __  /_  __/    __  __  |_  ___/  _ \\  _ \\__  /_  _ \\__ \\__ \\\n_  __/   _  / / /_      _  /_/ /_  /   /  __/  __/_  /_/  __/_  /_  /\n/_/      /_/  \\__/      /_____/ /_/    \\___/\\___/_____/\\___/_/_/_/_/ ");
                                                                      
 	puts("\nWelcome to Fitbreeze, your one and only destination for all your fitness needs!\n");
+	
 	do{
 		start_error = 0;
 		
@@ -473,13 +489,16 @@ puts("_____________________/\\//_______                            ___ ___  \n__
 			}
 		}
 	while (start_error == 1);	
-return pg_one_inp;
+
+	return pg_one_inp;
 
 }//END OF START PAGE DISPLAY FUNCTION
 
 void getPass(char arr[50]){//Function to get password
+
 	int i=0;
 	char ch;
+
 	while(1){
 		ch = getch();
 		if(ch == ENTER || ch == TAB){
@@ -494,8 +513,9 @@ void getPass(char arr[50]){//Function to get password
 			arr[i++] = ch;
 			printf("* \b");
 		}
-	}
-}
+	}//while END
+
+}//getPass END
 
 void loginPage(){//LOGIN FUNCTION START
 	//the login function will open and read profiles file line by line and verify input details.
@@ -769,10 +789,15 @@ void main(){
 	main_menu_choice = mainMenu();
 	
 	exit_app = 1;
+
 	switch(main_menu_choice){//main menu switch
-		case 1:
+
+		case 1://fitness journey pathway
+
 			while((exit_app == 1) && (current.day != '8')){//while NOT EXITED AND 7th day not completed
+
 				if(current.part=='0'){
+
 					system("cls");
 					planGetter();
 					puts("Would you like to continue? Or exit the app and continue to progress reporting later? (progress is saved)\n1. continue\n2. exit");
@@ -782,8 +807,11 @@ void main(){
 					if(exit_app == 2){
 						exit(0);//quits
 					}
+
 				}
+
 				if(current.part == '1'){
+				
 					progGetter();
 					puts("Would you like to continue to the next day? Or exit app and resume later? (progress is saved)\n1. continue\n2. exit");
 					fflush(stdin);
@@ -792,29 +820,37 @@ void main(){
 					if(exit_app == 2){
 						exit(0);//quits
 					}
+				
 				}
 			}//while END
 				
 			if(current.day == '8'){//7 day program complete
-			getchar();
-			system("cls");
-			finalReport();
+				getchar();
+				system("cls");
+				finalReport();
 			}
+			
 			puts("\nPress enter to close the app...");
 			getchar();
 			exit(0);//quits
 			break;//CASE BREAK
 		
-		case 2:
+		case 2://case MP3 option selected
 			mainMusic();
 			system("COLOR 31");
 			break;
 		
-		case 3:
+		case 3://case EXIT option selected
 			exit(0);
-	}//main menu switch END
+
+		}//main menu switch END
+
 	}//loop END for main menu
-fflush(stdin);	
-getchar();	
-}//mainMusic END
+
+	fflush(stdin);	
+	getchar();
+
+}//main END
+
+//BYE 
 
